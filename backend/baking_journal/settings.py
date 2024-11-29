@@ -127,5 +127,5 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080",  # Vue.js development server
+    "http://localhost:5173",  # Vue.js development server, must match the port that Vue uses
 ]

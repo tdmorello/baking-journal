@@ -13,6 +13,11 @@ There are "recipes" and "experiments" to encourage the mindset that there is som
 
 The experiment model could include "variations" (e.g., "variation_number" and "variation_nickname") for testing different conditions.
 
+## Development
+
+- [ ] A script to start up the backend and frontend servers
+- [ ] Vscode integration
+
 ## Frontend
 - [ ] Set up frontend with Vue
 - [ ] Start making components
