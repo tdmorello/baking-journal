@@ -4,26 +4,31 @@
 - [ ] Create heroku page for hosting (?)
 - [ ] AWS for image hosting (?)
 
+## Development
+
+- [ ] A script to start up the backend and frontend servers
+- [ ] Vscode integration
+
 ## Backend
 - [x] Set up backend with Django and MySQL on vscode
 - [x] write example data for database `python manage.py shell < populate_db.py`
+- [ ] Ingredients database
+  - [ ] Offers place to input facts about an ingredient, e.g., approximate protein amount in bread flour compared to all-purpose flour
 - [ ] write tests for example data (?)
 
 There are "recipes" and "experiments" to encourage the mindset that there is something to learn from every bake.
 
 The experiment model could include "variations" (e.g., "variation_number" and "variation_nickname") for testing different conditions.
 
-## Development
-
-- [ ] A script to start up the backend and frontend servers
-- [ ] Vscode integration
 
 ## Frontend
-- [ ] Set up frontend with Vue
-- [ ] Start making components
+- [x] Set up frontend with Vue
+- [x] Make basic recipe list component
 - [ ] Design recipe entry page
 - [ ] Design experiment page
 - [ ] Design start page (dashboard)
+  - [ ] Copy screenshots of dashboard ideas I like and feed them to generative AI to create something new
+- [ ] Set up Tailwind.css
 - [ ] Create charts
 
 ## Other things
